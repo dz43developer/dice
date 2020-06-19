@@ -1,0 +1,68 @@
+body{
+	font-size: 3em;
+    font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	color: #2fc4b2;
+	background-color: #10375c;
+}
+
+h1{
+	font-size: 8rem;
+}
+
+.container-fluid{
+	padding: 0% 10%;
+}
+
+.player{
+	padding: 3% 0% 3%;
+}
+
+.dice{
+	padding: 3% 0% 3%;
+}
+
+.dice img{
+	width: 30%;
+	height: 70%;
+}
+
+@media (min-width: 576px) {
+    body{
+	font-size: 1em;
+	}
+
+	h1{
+		font-size: 2rem;
+	}
+}
+
+@media (min-width: 768px) {
+    body{
+	font-size: 1.5em;
+	}
+
+	h1{
+		font-size: 3rem;
+	}
+}
+
+@media (min-width: 992px) {
+    body{
+	font-size: 2em;
+	}
+
+	h1{
+		font-size: 5rem;
+	}
+}
+
+@media (min-width: 1200px) {
+    body{
+	font-size: 3em;
+	}
+
+	h1{
+		font-size: 8rem;
+	}
+}
